@@ -1,0 +1,6 @@
+{
+  "name": "IRONCLAD AUTO WORKS",
+  "description": "Precision engineering and professional automotive care workshop based in Alexandria, Sydney NSW. High-end vehicle servicing, diagnostics, and repairs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Barlow Condensed', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0b0c0e;
+    color: #cbd5e1;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Custom automotive industrial accents */
+.bg-carbon-mesh {
+  background-color: #0e1014;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.bg-metallic-panel {
+  background: linear-gradient(180deg, rgba(28, 31, 38, 0.7) 0%, rgba(18, 20, 24, 0.9) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.border-metallic {
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+.orange-glow {
+  box-shadow: 0 0 25px -5px rgba(255, 98, 0, 0.35);
+}
+
+.orange-glow-sm {
+  box-shadow: 0 0 14px -3px rgba(255, 98, 0, 0.25);
+}
